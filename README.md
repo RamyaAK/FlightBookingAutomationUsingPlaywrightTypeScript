@@ -17,13 +17,12 @@ This is a **Test Automation Framework** using [Playwright](https://playwright.de
 
 git clone https://github.com/your-username/playwright-flight-booking.git
 cd playwright-flight-booking
-2️⃣ Install Dependencies
+
+### 2️⃣ Install Dependencies
 Ensure you have Node.js (v16+) installed, then run:
-
-
 npm install
-3️⃣ Install Playwright Browsers
 
+### 3️⃣ Install Playwright Browsers
 
 npx playwright install
 🏃 Running Tests
@@ -45,8 +44,6 @@ Run tests with Allure results:
 
 npx playwright test --reporter=allure
 Generate Allure report:
-
-Edit
 allure generate allure-results --clean -o allure-report
 Open Allure report:
 allure open allure-report
