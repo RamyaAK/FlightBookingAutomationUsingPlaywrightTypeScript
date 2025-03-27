@@ -15,48 +15,110 @@ This is a **Test Automation Framework** using [Playwright](https://playwright.de
 
 ### 1️⃣ Clone the Repository  
 
+```sh
 git clone https://github.com/your-username/playwright-flight-booking.git
 cd playwright-flight-booking
+```
 
-### 2️⃣ Install Dependencies
-Ensure you have Node.js (v16+) installed, then run:
+### 2️⃣ Install Dependencies  
+Ensure you have **Node.js (v16+)** installed, then run:
+
+```sh
 npm install
+```
 
-### 3️⃣ Install Playwright Browsers
+### 3️⃣ Install Playwright Browsers  
 
+```sh
 npx playwright install
-🏃 Running Tests
-✅ Run All Tests
+```
 
+---
+
+## 🏃 Running Tests  
+
+### ✅ Run All Tests  
+
+```sh
 npx playwright test
-✅ Run a Specific Test
+```
 
+### ✅ Run a Specific Test  
+
+```sh
 npx playwright test tests/login.spec.ts
-✅ Run Tests with UI Mode
+```
 
+### ✅ Run Tests with UI Mode  
+
+```sh
 npx playwright test --ui
-📊 Generate and View Reports
-🏆 View Playwright HTML Report
+```
 
+---
+
+## 📊 Generate and View Reports  
+
+### 🏆 View Playwright HTML Report  
+
+```sh
 npx playwright show-report
-🏆 Generate & View Allure Report
-Run tests with Allure results:
+```
 
+### 🏆 Generate & View Allure Report  
+
+#### Run tests with Allure results:  
+
+```sh
 npx playwright test --reporter=allure
-Generate Allure report:
+```
+
+#### Generate Allure report:  
+
+```sh
 allure generate allure-results --clean -o allure-report
-Open Allure report:
+```
+
+#### Open Allure report:  
+
+```sh
 allure open allure-report
+```
 
-🔗 Additional Resources
-Playwright Documentation
+---
 
-Allure Report Documentation
+## 📚 Project Structure  
 
-Mercury Tours Test Website
+```
+💽 playwright-flight-booking
+│── 💽 tests                   # Test cases
+│── 💽 pages                   # Page Object Model (POM)
+│── 💽 utils                   # Utility functions
+│── 💽 reports                 # Test reports (excluded in .gitignore)
+│── 📄 playwright.config.ts     # Playwright configuration
+│── 📄 .gitignore               # Files to ignore in Git
+│── 📄 package.json             # Project dependencies
+│── 📄 README.md                # Project documentation
+```
 
-🤝 Contributing
-Feel free to fork this repo, raise issues, or submit pull requests. 🚀
+---
 
-📜 License
-This project is licensed under MIT License.
+## 🗮 Additional Resources  
+- [Playwright Documentation](https://playwright.dev/docs/)
+- [Allure Report Documentation](https://docs.qameta.io/allure/)
+- [Mercury Tours Test Website](https://demo.guru99.com/test/newtours/login.php)
+
+---
+
+## 🤝 Contributing  
+Feel free to **fork** this repo, raise issues, or submit pull requests. 🚀  
+
+---
+
+## 🐟 License  
+This project is licensed under **MIT License**.
+
+---
+
+### 🎯 Happy Testing! 🚀✨
+
